@@ -1,0 +1,250 @@
+
+body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: "Courier New";
+}
+#wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color:black;
+    opacity: .9;
+    
+}
+.nav a{
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav a:hover {
+    background-color:white;
+    color: black;
+  }
+.nav ul {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    
+    
+}
+.nav ul li{
+    padding: 0 10px;
+}
+.nav ul li a{
+    display: block;
+}
+.logo h2{
+    color: white;
+    margin: 0px 500px -25px 0;
+    font-size: 40px;
+}
+.logo p{
+    color:white;
+}
+.menu{
+    background-image: url("images/background.jpg");
+    width: 100%;
+    height: 680px;
+    padding: 1px;
+}
+.menu h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 80px;
+    color: white;
+    
+}
+.menu p{
+    text-align: center;
+    font-size: 20px;
+    margin: -85px;
+    color:black;
+}
+.about{
+    width: 100%;
+    height: 510px;
+}
+
+.aboutleft{
+    width: 50%;
+    height: 510px;
+    float: left;
+}
+.aboutleft h3{
+    text-align: center;
+    font-size: 20px;
+}
+.aboutleft p{
+    text-align: center;
+    font-size: 15px;
+}
+.aboutleft ul{
+    text-align: center;
+    list-style-type: none;
+}
+.aboutleft button{
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin: 40px 330px;
+    color: black;
+    position: relative;
+    border: 1px solid black;
+    overflow: hidden;
+    padding: 0px 8px;
+    display: inline-block;
+    
+}
+.aboutleft a{
+    text-decoration: none;
+    
+}
+.aboutleft a:link, a:visited{
+    color: black;
+}
+.aboutleft a:hover{
+    color: white;
+}
+
+.aboutright{
+    width: 50%;
+    height: 510px;
+    float: left;
+}
+.aboutright img{
+    margin: 30px 195px;
+
+}
+.portfolio{
+    width: 100%;
+    height: 510px;
+    margin: 0px;
+    background-color: black;
+
+}
+.portfolio img{
+    width: 300px;
+    height: 400px;
+}
+.portfolioleft{
+    width: 33%;
+    height: 510px;
+    float: left;
+    color:white;
+    margin: 0 0px;
+    text-align: center;
+    
+}
+.portfoliomiddle{
+    width: 33%;
+    height: 510px;
+    float: left;
+    color:white;
+    text-align: center;
+}
+.portfolioright{
+    width: 33%;
+    height: 510px;
+    float: left;
+    color:white;
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    height: 510px;
+    margin: 20px 0px;
+}
+.footerleft{
+    width: 50%;
+    height: 510px;
+    float: left;
+}
+.footerright{
+    width: 50%;
+    height: 510px;
+    float: left;
+    padding: 150px 0 0 0;
+}
+.footerleft h3{
+    font-size: 20px;
+    text-align: center;
+    padding: 150px 0 0 0;
+}
+.footerleft img{
+    text-align: center;
+    width: 80px;
+    height: 80px;
+}
+.social{
+    text-align: center;
+    
+}
+.footerright iframe{
+    width: 400px; 
+    height: 200px;
+    text-align: center;
+    margin: 20px;
+}
+.footerleft table{
+    text-align: center;
+    padding: 0 0 0 230px;
+}
+.form p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form{
+    width: 100%;
+    height: 510px;
+    text-align: center;
+    background-color: black;
+
+}
+.form input{
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 0;
+    color: black;
+    position: relative;
+    border: 1px solid black;
+    overflow: hidden;
+    padding: 0px 25px;
+    display: inline-block;
+}
+.form textarea{
+    line-height: 100px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    position: relative;
+    border: 1px solid black;
+    overflow: hidden;
+    padding: 0px 100px;
+    display: inline-block;
+}
+
+.form input:hover{
+    color: white;
+}
+
+
+
+
