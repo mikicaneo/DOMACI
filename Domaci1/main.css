@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: helvetica;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+nav a {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    border-bottom: 5px solid rgba(24, 182, 95, 0.966);
+    margin: 0;
+    padding-bottom: 0;
+}
+header {
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header img {
+    width: 100%;
+    height: 45%;
+    filter: brightness(35%);
+    opacity: 70%;
+    position: absolute;
+    z-index: -1;
+}
+header h1 {
+    text-align: center;
+    padding-top: 4.5rem;
+    color: white;
+    font-size: 45px;
+}
+header button{
+    text-align: center;
+    border: 2px solid rgba(24, 182, 95, 0.966);
+    
+    color: rgba(24, 182, 95, 0.966);
+    border-radius: 20px;
+    margin-top: 2rem;
+    padding: 0.4em 2rem;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    font-family: 'Palanquin', sans-serif;
+}
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.first-section article {
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}    
+.first-section img {
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem 0;
+    border-radius: 50%;
+    filter: grayscale(90%);
+}
+
+.first-section p {
+    font-size: 0.8rem;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+.first-section button {
+    border: 3px solid rgba(24, 182, 95, 0.966);
+    background: white;
+    color: rgba(24, 182, 95, 0.966);
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Palanquin', sans-serif;
+    padding: 0.4rem 2rem;
+    text-transform: uppercase;
+}
+button:focus {
+    outline: none;
+}
+.second-section {
+    background: rgba(24, 182, 95, 0.966);
+    display: flex;
+    flex-direction: column;
+}
+.second-section input {
+    background: rgba(24, 182, 95, 0.966);
+    border: 1px solid rgb(223, 218, 211);
+    border-radius: 10px;
+    width: 35rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    padding: 0.5rem;
+    color: rgb(223, 218, 211);
+}
+input:focus  {
+    outline:0;
+}
+.second-section h2 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 4rem;
+}
+.second-section label {
+    color: white;
+    font-family: "Palanquin', sans-serif";
+
+}
+
+.unos1 {
+    display: flex;
+    justify-content: space-around;
+}
+.unos2 {
+    display: flex;
+    flex-direction: column;
+}
+textarea {
+    background-color: rgba(24, 182, 95, 0.966);
+    border: 1px solid rgb(223, 218, 211);
+    width: 98%;
+    color: rgb(109, 107, 104);
+    border-radius: 10px;
+    padding:0.5rem;
+}
+textarea:focus {outline:0;}
+.unos3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.6rem;
+}
+.unos4 {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    
+}
+.unos4 button {
+    background: rgba(24, 182, 95, 0.966);
+    border: 3px solid white;
+    padding: 0.4rem 2rem;
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
