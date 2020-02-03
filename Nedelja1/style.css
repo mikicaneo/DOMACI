@@ -112,8 +112,7 @@ body{
     text-decoration: none;
     
 }
-.aboutleft a:link, a:visited{
-    color: black;
+
 }
 .aboutleft a:hover{
     color: white;
