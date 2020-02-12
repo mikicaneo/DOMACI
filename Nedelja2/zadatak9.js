@@ -1,4 +1,4 @@
-let n = 5;
+let n = 8;
 let poklopac = ' '.repeat(n - 1) + '#'+' '+'#'+' '.repeat(n - 1);
     console.log(poklopac);
 for (let i = 0; i < n-1; i++) {
