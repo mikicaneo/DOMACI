@@ -1,0 +1,99 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#omot {
+    height: 300px;
+    background-color: black;
+    padding-top: 20px;
+}
+
+h1 {
+    color: rgb(240, 234, 234);
+    font-size: 60px;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+#stanje {
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+#prikaz-prihoda, #prikaz-rashoda {
+    width: 350px;
+    height: 40px;
+    background-color: rgb(0, 58, 218);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 5px 15px;
+    color: white;
+}
+
+#prikaz-rashoda {
+    background-color: rgb(252, 51, 16);
+}
+
+#prihodi, #rashodi {
+    color: rgb(240, 234, 234);
+    text-align: center;
+}
+
+#unos-podataka {
+    height: 100px;
+    background-color: rgb(37, 37, 37);
+    padding-top: 35px;
+}
+
+select {
+    height: 35px;
+}
+
+input {
+    height: 35px;
+}
+
+#rezultati {
+    height: 500px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+#rezultati-prihoda, #rezultati-rashoda{
+    width: 50%;
+    height: 400px;
+    padding: 30px;
+}
+
+#rezultati-prihoda {
+    color: rgb(0, 58, 218);
+}
+
+#rezultati-rashoda {
+    color: rgb(252, 51, 16);
+}
+
+#listItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+span{
+    height: 20px;
+    padding: 3px;
+    margin-top: 10px;
+}
